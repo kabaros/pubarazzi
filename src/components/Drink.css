@@ -1,0 +1,53 @@
+
+.drink {
+    flex: 1;
+    height: 100px;
+    width: 30%;
+    flex-basis: 30%;
+    flex-wrap: wrap;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #D8D8D8;
+    cursor: pointer;
+    position: relative;
+}
+
+.drink:hover {
+    border: 1px solid #2C2C2C;
+}
+
+.drink.highlighted {
+    background-color: #83E791;
+    border: 1px solid #818145;
+}
+.drink.highlighted-warning {
+    background-color: yellow;
+}
+
+.drink.highlighted-danger {
+    background-color: red;
+}
+
+.drink.highlighted:hover {
+    border: 1px solid green;
+}
+
+.drink h1 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.drink .add-drink {
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+    font-size: 28px;
+}
+
+.drink .order-total {
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+    margin: 0;
+    font-size: 0.6em;
+}

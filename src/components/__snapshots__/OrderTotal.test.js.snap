@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default title 1`] = `
+<div>
+  <header
+    class="order-total"
+  >
+    Total: £
+    40
+  </header>
+</div>
+`;

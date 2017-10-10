@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default title 1`] = `
+<div>
+  <header
+    class="app-header"
+  >
+    Where do you want to go today?
+  </header>
+</div>
+`;
+
+exports[`renders passed title 1`] = `
+<div>
+  <header
+    class="app-header"
+  >
+    Something
+    <div
+      class="close-button"
+    >
+      x
+    </div>
+  </header>
+</div>
+`;

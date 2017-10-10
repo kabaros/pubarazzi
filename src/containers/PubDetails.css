@@ -1,0 +1,36 @@
+
+.order-details {
+    padding: 5px;
+    color: #615C5C;
+}
+
+.order-details h1 {
+    font-size: 16px;
+    border-bottom: 1px dotted #424242;
+    padding: 5px;
+}
+
+.order-details ul {
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.order-details li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.order-details li .drink-name {
+    font-weight: bold;
+}
+
+.order-details li .drink-value {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.order-details li span {
+    display: block;
+}
